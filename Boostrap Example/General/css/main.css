@@ -1,0 +1,15 @@
+.row{
+    background-color: yellow;
+    height: 300px;
+}
+.row div{
+    text-align: center;
+    height: 100px;
+}
+.row div:nth-child(odd){
+    background-color: red;
+}
+
+.row div:nth-child(even){
+    background-color: blue;
+}
